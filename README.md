@@ -5,7 +5,7 @@ An ongoing curated list of frameworks, books, articles, talks, screencasts, reco
 
 When you hear Kotlin, you will probably think about it as a programming language merely for developing mobile apps on Android, and you are right – but only partially. That is because Google decided that Kotlin was its preferred language for building Android apps. Yet this language is much more than that, Android being only a fraction of possibilities Kotlin offers.  But let’s start from the beginning…
 
-[kotlin](https://github.com/veilair/kotlin-development/blob/main/img/Kotlin-Andriod-Tutorial-PNG.png)
+![kotlin](https://github.com/veilair/kotlin-development/blob/main/img/Kotlin-Andriod-Tutorial-PNG.png)
 
 
 ## What is Kotlin?
