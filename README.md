@@ -2,6 +2,11 @@
 > Welcome to the the world of Kotlin
 An ongoing curated list of frameworks, books, articles, talks, screencasts, recordings, libraries, learning tutorials and resources about kotlin development.
 
+
+It is an open-source statically typed programming language designed by JetBrains. Yep, the same guys who created IntelliJ IDEA. You may say “IntelliJ is the best IDE for JAVA, those people know how to do the stuff, this Kotlin might be a really good tool” – and you are right! I mean, if you like JAVA and think it is a cool language then Kotlin is even cooler. Why? I will show you later.
+
+
+
 ### Contents
 
 - [Guide](#guide)
