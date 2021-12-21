@@ -1,5 +1,5 @@
 # Kotlin Development
-> Welcome to the the world of Kotlin
+> Welcome to the the world of Kotlin.
 An ongoing curated list of frameworks, books, articles, talks, screencasts, recordings, libraries, learning tutorials and resources about kotlin development.
 
 
