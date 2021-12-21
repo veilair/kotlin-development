@@ -11,7 +11,7 @@ When you hear Kotlin, you will probably think about it as a programming language
 ## What is Kotlin?
 It is an open-source statically typed programming language designed by JetBrains. Yep, the same guys who created IntelliJ IDEA. You may say “IntelliJ is the best IDE for JAVA, those people know how to do the stuff, this Kotlin might be a really good tool” – and you are right! I mean, if you like JAVA and think it is a cool language then Kotlin is even cooler. Why? I will show you later.
 
-
+![kotlin-language](https://github.com/veilair/kotlin-development/blob/main/img/Kotlin_logo.svg.png)
 
 ### Contents
 
