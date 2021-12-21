@@ -1,0 +1,529 @@
+{
+  "title": "Awesome Kotlin",
+  "header": "# Awesome Kotlin\n \n<!-- \n\nPLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)\n\n -->\n\n",
+  "header_contributing": "Please take a quick look at the [contribution guidelines](.github/CONTRIBUTING.md) first. If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you to all [contributors](https://github.com/matteocrippa/awesome-kotlin/graphs/contributors); you rock!!",
+  "categories": [{
+    "title": "Guide",
+    "id": "guide",
+    "description": "A collection of interesting Kotlin guides."
+  },{
+    "title": "Community",
+    "id": "community",
+    "description": "Community where talk about Kotlin and share informations."
+  },{
+    "title": "Newsletter",
+    "id": "newsletter",
+    "description": "Newsletter about Kotlin."
+  },{
+    "title": "Podcast",
+    "id": "podcast",
+    "description": "Podcast about Kotlin."
+  },{
+    "title": "Libraries",
+    "id": "lib"
+  },{
+    "title": "Network",
+    "id": "network",
+    "parent": "lib"
+  },{
+    "title": "Caching",
+    "id": "caching",
+    "parent": "lib"
+  },{
+    "title": "Utils",
+    "id": "utils",
+    "parent": "android"
+  },{
+    "title": "Web",
+    "id": "web",
+    "parent": "lib"
+  },{
+    "title": "Android",
+    "id": "android",
+    "parent": "lib"
+  },{
+    "title": "Adapter",
+    "id": "adapter",
+    "parent": "android"
+  },{
+    "title": "Compiler",
+    "id": "compiler"
+  },{
+    "title": "SharedPreferences",
+    "id": "sharedpreferences",
+    "parent": "android"
+  },{
+    "title": "View",
+    "id": "view",
+    "parent": "android"
+  },{
+    "title": "Data Management",
+    "id": "datamanagement",
+    "parent": "lib"
+  },{
+    "title": "JSON",
+    "id": "json",
+    "parent": "datamanagement"
+  },{
+    "title": "GSON",
+    "id": "gson",
+    "parent": "datamanagement"
+  },{
+    "title": "Database",
+    "id": "database",
+    "parent": "lib"
+  },{
+    "title": "SQL",
+    "id": "sql",
+    "parent": "database"
+  },{
+    "title": "Logging",
+    "id": "logging",
+    "parent": "lib"
+  },{
+    "title": "Analytics",
+    "id": "analytics",
+    "parent": "lib"
+  },{
+    "title": "NoSQL",
+    "id": "nosql",
+    "parent": "database"
+  },{
+    "title": "Permission",
+    "id": "permission",
+    "parent": "android"
+  },{
+    "title": "Map",
+    "id": "map",
+    "parent": "android"
+  },{
+    "title": "Image",
+    "id": "image",
+    "parent": "android"
+  },{
+    "title": "Button",
+    "id": "button",
+    "parent": "android"
+  },{
+    "title": "Activity",
+    "id": "activity",
+    "parent": "android"
+  },{
+    "title": "Gallery",
+    "id": "gallery",
+    "parent": "android"
+  },{
+    "title": "Layout",
+    "id": "layout",
+    "parent": "android"
+  },{
+    "title": "Api Wrapper",
+    "id": "api",
+    "parent": "libs"
+  },{
+    "title": "Math",
+    "id": "math",
+    "parent": "libs"
+  },{
+    "title": "Mocking",
+    "id": "mock",
+    "parent": "libs"
+  },{
+    "title": "Code Analysis",
+    "id": "code-analysis",
+    "parent": "libs"
+  },{
+    "title": "Recycler View",
+    "id": "recycler-view",
+    "parent": "android"
+  },{
+    "title": "Camera",
+    "id": "camera",
+    "parent": "android"
+  },{
+    "title": "Pager",
+    "id": "pager",
+    "parent": "view"
+  }],
+  "projects": [ {
+      "title": "Official Kotlin",
+      "category": "guide",
+      "description": "The official Kotlin website with plenty resources to learn this language.",
+      "homepage": "http://kotlinlang.org",
+      "tags": ["kotlin", "guide", "REPL"]
+    },
+    {
+      "title": "Kotlin on Reddit",
+      "category": "community",
+      "description": "The official Kotlin Reddit channel.",
+      "homepage": "https://www.reddit.com/r/Kotlin/",
+      "tags": ["kotlin", "community"]
+    },
+    {
+      "title": "Kotlin on Linkedin",
+      "category": "community",
+      "description": "The official Kotlin LinkedIn channel.",
+      "homepage": "https://www.linkedin.com/groups/7417237",
+      "tags": ["kotlin", "community"]
+    },
+    {
+      "title": "Kotlin Forum",
+      "category": "community",
+      "description": "The official Kotlin Forum.",
+      "homepage": "https://discuss.kotlinlang.org",
+      "tags": ["kotlin", "community", "forum"]
+    },
+    {
+      "title": "Kotlin Guide",
+      "category": "guide",
+      "description": "An interesting guide to approach Kotlin by Thorsten Schleinzer.",
+      "homepage": "https://kotlin.guide",
+      "tags": ["kotlin", "guide", "REPL"]
+    },
+    {
+      "title": "Kotlin Weekly",
+      "category": "newsletter",
+      "description": "A curated weekly newsletter about the best of Kotlin around the net.",
+      "homepage": "http://www.kotlinweekly.net",
+      "tags": ["kotlin", "newsletter"]
+    },{
+      "title": "Kotlin Daily",
+      "category": "newsletter",
+      "description": "A curated twitter account with daily suggestion about Kotlin.",
+      "homepage": "https://twitter.com/dailykotlin",
+      "tags": ["twitter"]
+    },{
+      "title": "Talking Kotlin",
+      "category": "podcast",
+      "description": "A curated podcast about Kotlin language.",
+      "homepage": "http://talkingkotlin.com",
+      "tags": ["podcast"]
+    },{
+      "title": "Fuel",
+      "category": "network",
+      "description": "A complete network library with routing support.",
+      "homepage": "https://github.com/kittinunf/Fuel",
+      "tags": ["network", "http", "routing"]
+    },{
+      "title": "Fuse",
+      "category": "caching",
+      "description": "A disk and memory caching lib.",
+      "homepage": "https://github.com/kittinunf/Fuse",
+      "tags": ["cache", "disk", "memory"]
+    },{
+      "title": "Result",
+      "category": "utils",
+      "description": "The modelling for success/failure of operations.",
+      "homepage": "https://github.com/kittinunf/Result",
+      "tags": ["result"]
+    },{
+      "title": "Anko",
+      "category": "utils",
+      "description": "A collection of utils to make Android development faster and easier.",
+      "homepage": "https://github.com/Kotlin/anko",
+      "tags": ["utils", "android"]
+    },{
+      "title": "ktor",
+      "category": "web",
+      "description": "A framework for quickly creating web applications.",
+      "homepage": "https://github.com/ktorio/ktor",
+      "tags": ["web"]
+    },{
+      "title": "LastAdapter",
+      "category": "adapter",
+      "description": "An adapter and viewholder handler for easier android development.",
+      "homepage": "https://github.com/nitrico/LastAdapter",
+      "tags": ["adapter", "android", "viewholder"]
+    },{
+      "title": "Kotlin Native",
+      "category": "compiler",
+      "description": "An LLVM backend for the Kotlin compiler, runtime implementation, and native code generation facility using the LLVM toolchain.",
+      "homepage": "https://github.com/JetBrains/kotlin-native",
+      "tags": ["kotlin", "native", "ios", "osx", "linux", "windows"]
+    },{
+      "title": "KAndroid",
+      "category": "utils",
+      "description": "Provide extensions and remove boilerplates on Android development.",
+      "homepage": "https://github.com/pawegio/KAndroid",
+      "tags": ["utils", "android"]
+    },{
+      "title": "Kotpref",
+      "category": "sharedpreferences",
+      "description": "A simpler way to handle shared preferences.",
+      "homepage": "https://github.com/chibatching/Kotpref",
+      "tags": ["utils", "android", "sharedpreferences"]
+    },{
+      "title": "kotterknife",
+      "category": "view",
+      "description": "View binding made easy.",
+      "homepage": "https://github.com/JakeWharton/kotterknife",
+      "tags": ["utils", "android", "view", "binding"]
+    },{
+      "title": "klaxon",
+      "category": "json",
+      "description": "JSON parser.",
+      "homepage": "https://github.com/cbeust/klaxon",
+      "tags": ["datamodel", "data", "json"]
+    },{
+      "title": "Kotson",
+      "category": "gson",
+      "description": "Simple GSON Parser.",
+      "homepage": "https://github.com/SalomonBrys/Kotson",
+      "tags": ["datamodel", "data", "gson"]
+    },{
+      "title": "kara",
+      "category": "web",
+      "description": "A tiny web framework for JVM.",
+      "homepage": "https://github.com/TinyMission/kara",
+      "tags": ["web"]
+    },{
+      "title": "shadow",
+      "category": "view",
+      "description": "Easy shadow handler for view.",
+      "homepage": "https://github.com/loopeer/shadow",
+      "tags": ["view", "shadow"]
+    },{
+      "title": "Exposed",
+      "category": "sql",
+      "description": "A lightweight SQL library written over JDBC.",
+      "homepage": "https://github.com/JetBrains/Exposed",
+      "tags": ["sql", "database"]
+    },{
+      "title": "kovert",
+      "category": "web",
+      "description": "A REST (and Web) framework.",
+      "homepage": "https://github.com/kohesive/kovert",
+      "tags": ["rest", "web"]
+    },{
+      "title": "kotlin-logging",
+      "category": "logging",
+      "description": "Lightweight logging framework.",
+      "homepage": "https://github.com/MicroUtils/kotlin-logging",
+      "tags": ["log"]
+    },{
+      "title": "Mystique",
+      "category": "adapter",
+      "description": "RecyclerView generated via homogeneous and heterogeneous lists effortlessly using an universal adapter logging framework.",
+      "homepage": "https://github.com/rahulchowdhury/Mystique",
+      "tags": ["log"]
+    },{
+      "title": "NoiseView",
+      "category": "view",
+      "description": "Easily add noise effect on your image.",
+      "homepage": "https://github.com/hypeapps/NoiseView",
+      "tags": ["image", "noise"]
+    },{
+      "title": "ganalytics",
+      "category": "analytics",
+      "description": "Google Analytics tiny framework.",
+      "homepage": "https://github.com/programmerr47/ganalytics",
+      "tags": ["analytics", "google"]
+    },{
+      "title": "kotlin-nosql",
+      "category": "nosql",
+      "description": "NoSQL database query and access library.",
+      "homepage": "https://github.com/cheptsov/kotlin-nosql",
+      "tags": ["nosql", "database"]
+    },{
+      "title": "Kwery",
+      "category": "sql",
+      "description": "SQL library over JDBC.",
+      "homepage": "https://github.com/andrewoma/kwery",
+      "tags": ["sql", "database"]
+    },{
+      "title": "Permission Dispatcher",
+      "category": "permission",
+      "description": "Provides a simple annotation-based API to handle runtime permissions.",
+      "homepage": "https://github.com/permissions-dispatcher/PermissionsDispatcher",
+      "tags": ["permission"]
+    },{
+      "title": "From Java to Kotlin",
+      "category": "guide",
+      "description": "Cheat Sheet For Java to Kotlin.",
+      "homepage": "https://github.com/MindorksOpenSource/from-java-to-kotlin",
+      "tags": ["java","guide","migration"]
+    },{
+      "title": "Requery",
+      "category": "sql",
+      "description": "A modern SQL based query & persistence.",
+      "homepage": "https://github.com/requery/requery",
+      "tags": ["sql","android"]
+    },{
+      "title": "MapMe",
+      "category": "map",
+      "description": "A modern adapter approach for maps, supporting Google Maps and Mapbox.",
+      "homepage": "https://github.com/TradeMe/MapMe",
+      "tags": ["map","adapter","google-maps","mapbox"]
+    },{
+      "title": "Clay",
+      "category": "image",
+      "description": "Simple image trimming.",
+      "homepage": "https://github.com/line/clay",
+      "tags": ["image","editing","trim"]
+    },{
+      "title": "Konfetti",
+      "category": "view",
+      "description": "Particle system for your views.",
+      "homepage": "https://github.com/DanielMartinus/Konfetti",
+      "tags": ["view","particle","particle-system"]
+    },{
+      "title": "Stepper-Touch",
+      "category": "button",
+      "description": "A simple stepper touch button.",
+      "homepage": "https://github.com/DanielMartinus/Stepper-Touch",
+      "tags": ["button","step","stepper"]
+    },{
+      "title": "Fiberglass",
+      "category": "sharedpreferences",
+      "description": "Easy lightweight SharedPreferences library with delegated properties.",
+      "homepage": "https://github.com/mathcamp/fiberglass",
+      "tags": ["sharedpreferences"]
+    },{
+      "title": "KotlinPreferences",
+      "category": "sharedpreferences",
+      "description": "Easy way to use Android shared preferences.",
+      "homepage": "https://github.com/MarcinMoskala/KotlinPreferences",
+      "tags": ["sharedpreferences"]
+    },{
+      "title": "ActivityStarter",
+      "category": "activity",
+      "description": "Easy way to start the Activities with arguments.",
+      "homepage": "https://github.com/MarcinMoskala/ActivityStarter",
+      "tags": ["activity"]
+    },{
+      "title": "bubble",
+      "category": "view",
+      "description": "Easy way check current view orientation.",
+      "homepage": "https://github.com/TouK/bubble",
+      "tags": ["view", "orientation"]
+    },{
+      "title": "Kotlin examples",
+      "category": "guide",
+      "description": "A collection of examples of kotlin usage by JetBrains.",
+      "homepage": "https://github.com/JetBrains/kotlin-examples",
+      "tags": ["snippets", "example"]
+    },{
+      "title": "Simple-Gallery",
+      "category": "gallery",
+      "description": "A gallery for viewing photos and videos.",
+      "homepage": "https://github.com/SimpleMobileTools/Simple-Gallery",
+      "tags": ["image", "video", "gallery"]
+    },{
+      "title": "Flexbox",
+      "category": "layout",
+      "description": "Flexbox layout by Google.",
+      "homepage": "https://github.com/google/flexbox-layout",
+      "tags": ["layout", "liquid"]
+    },{
+      "title": "JRAW",
+      "category": "api",
+      "description": "Reddit Api wrapper.",
+      "homepage": "https://github.com/mattbdean/JRAW",
+      "tags": ["reddit", "wrapper", "api"]
+    },{
+      "title": "kotlin-math",
+      "category": "math",
+      "description": "Set APIs to make graphics math easier to write.",
+      "homepage": "https://github.com/romainguy/kotlin-math",
+      "tags": ["math"]
+    },{
+      "title": "mockk",
+      "category": "mock",
+      "description": "Mocking library.",
+      "homepage": "https://github.com/oleksiyp/mockk",
+      "tags": ["mock"]
+    },{
+      "title": "xpref",
+      "category": "sharedpreferences",
+      "description": "Multiprocess sharedpreferences.",
+      "homepage": "https://github.com/Bilibili/xpref",
+      "tags": ["sharedprefeferences"]
+    },{
+      "title": "Raincoat",
+      "category": "analytics",
+      "description": "Analytics abstraction layer.",
+      "homepage": "https://github.com/matteocrippa/Raincoat",
+      "tags": ["analytics", "google-analytics", "mixpanel", "localytics"]
+    },{
+      "title": "Parrot",
+      "category": "image",
+      "description": "ImageView extension for async loading.",
+      "homepage": "https://github.com/matteocrippa/Parrot",
+      "tags": ["imageview", "async-loader", "extension"]
+    },{
+      "title": "DotsLoader",
+      "category": "view",
+      "description": "Android dots loader.",
+      "homepage": "https://github.com/agrawalsuneet/DotsLoader",
+      "tags": ["view", "loader"]
+    },{
+      "title": "kaha",
+      "category": "web",
+      "description": "A simple Servlet based web framework.",
+      "homepage": "https://github.com/ahwnz/kaha",
+      "tags": ["web", "framework"]
+    },{
+      "title": "detekt",
+      "category": "code-analysis",
+      "description": "Static code analysis.",
+      "homepage": "https://github.com/arturbosch/detekt",
+      "tags": ["static", "code", "analysis"]
+    },{
+      "title": "NestedRecyclerView",
+      "category": "recycler-view",
+      "description": "Improve the scroll angle when 2 recyclers views are nested.",
+      "homepage": "https://github.com/MalikDE/NestedRecyclerView",
+      "tags": ["nested", "recycle", "view"]
+    },{
+      "title": "StickyTimeLine",
+      "category": "view",
+      "description": "Timeline view for Android.",
+      "homepage": "https://github.com/sangcomz/StickyTimeLine",
+      "tags": ["timeline", "view"]
+    },{
+      "title": "Colored Time Selector",
+      "category": "view",
+      "description": "A smart colored time selector for Android.",
+      "homepage": "https://github.com/ehsunshine/colored-time-selector",
+      "tags": ["selector", "view"]
+    },{
+      "title": "Fotoapparat",
+      "category": "camera",
+      "description": "Making Camera for Android more friendly.",
+      "homepage": "https://github.com/Fotoapparat/Fotoapparat",
+      "tags": ["photo", "camera"]
+    },{
+      "title": "Android Indefinite Pager Indicator",
+      "category": "pager",
+      "description": "Making Camera for Android more friendly.",
+      "homepage": "https://github.com/rbro112/Android-Indefinite-Pager-Indicator",
+      "tags": ["indicator", "pager", "recycler-view", "adapter"]
+    },{
+      "title": "ChatMessageView",
+      "category": "view",
+      "description": "Chat UI library for Android.",
+      "homepage": "https://github.com/bassaer/ChatMessageView",
+      "tags": ["ui", "view", "chat", "message"]
+    },{
+      "title": "Multi Selection",
+      "category": "view",
+      "description": "Multiselection Solution for Android.",
+      "homepage": "https://github.com/Yalantis/Multi-Selection",
+      "tags": ["selection", "view", "multi"]
+    },{
+      "title": "Android Snowfall",
+      "category": "view",
+      "description": "Fully customizable implementation of Snowfall View on Android.",
+      "homepage": "https://github.com/JetradarMobile/android-snowfall",
+      "tags": ["ui", "snow", "particles"]
+    },{
+      "title": "arrow",
+      "category": "utils",
+      "description": "Functional companion to Kotlin's Standard Library.",
+      "homepage": "https://github.com/arrow-kt/arrow",
+      "tags": ["companion", "Functional"]
+    }
+
+
+  ]
+}
