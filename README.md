@@ -13,7 +13,7 @@ It is an open-source statically typed programming language designed by [JetBrain
 
 ![kotlin-language](https://github.com/veilair/kotlin-development/blob/main/img/Kotlin_logo.svg.png)
 
-### Contents
+### `Table of Contents`
 
 - [Guide](#guide)
 - [Community](#community)
@@ -48,25 +48,25 @@ It is an open-source statically typed programming language designed by [JetBrain
   - [Web](#web)
 - [Compiler](#compiler)
 
-## Guide
+## `Guide`
 *A collection of interesting Kotlin guides.* 
 * [From Java to Kotlin](https://github.com/MindorksOpenSource/from-java-to-kotlin) - Cheat Sheet For Java to Kotlin.
 * [Kotlin examples](https://github.com/JetBrains/kotlin-examples) - A collection of examples of kotlin usage by JetBrains.
 * [Kotlin Guide](https://kotlin.guide) - An interesting guide to approach Kotlin by Thorsten Schleinzer.
 * [Official Kotlin](http://kotlinlang.org) - The official Kotlin website with plenty resources to learn this language.
 
-## Community
+## `Community`
 *Community where talk about Kotlin and share informations.* 
 * [Kotlin Forum](https://discuss.kotlinlang.org) - The official Kotlin Forum.
 * [Kotlin on Linkedin](https://www.linkedin.com/groups/7417237) - The official Kotlin LinkedIn channel.
 * [Kotlin on Reddit](https://www.reddit.com/r/Kotlin/) - The official Kotlin Reddit channel.
 
-## Newsletter
+## `Newsletter
 *Newsletter about Kotlin.* 
 * [Kotlin Daily](https://twitter.com/dailykotlin) - A curated twitter account with daily suggestion about Kotlin.
 * [Kotlin Weekly](http://www.kotlinweekly.net) - A curated weekly newsletter about the best of Kotlin around the net.
 
-## Podcast
+## Podcast`
 *Podcast about Kotlin.* 
 * [Talking Kotlin](http://talkingkotlin.com) - A curated podcast about Kotlin language.
 
